@@ -29,7 +29,7 @@ To the fullest extent permitted by applicable law, the operator shall not be lia
 
 ## 6. Governing law
 
-This agreement is governed by the laws of the Islamic Republic of Pakistan. Any disputes shall be subject to the exclusive jurisdiction of the courts of Karachi, Pakistan.
+This agreement is governed by the laws of the Kingdom of Saudi Arabia. Any disputes shall be subject to the exclusive jurisdiction of the competent courts of Riyadh, Kingdom of Saudi Arabia.
 
 ## 7. Contact
 

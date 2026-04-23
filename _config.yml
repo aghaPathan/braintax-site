@@ -1,8 +1,8 @@
 title: BrainTax
 description: Money psychology short-form video channel and self-hosted publishing tool.
 theme: minima
-url: https://aghapathan.github.io
-baseurl: /braintax-site
+url: https://braintax.net
+baseurl: ""
 
 header_pages:
   - terms.md
