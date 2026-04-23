@@ -1,0 +1,102 @@
+---
+layout: default
+body_class: home-body
+---
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Bulletin №. 01 · {{ 'now' | date: "%Y" }}</span>
+    </div>
+
+    <h1 class="display">
+      Your brain is <span class="accent">costing you</span> money.
+    </h1>
+
+    <div class="rule" aria-hidden="true"></div>
+
+    <p class="lede">
+      BrainTax is a short-form video channel about the psychology behind money
+      decisions — the cognitive biases, mental shortcuts, and emotional patterns
+      that shape how people spend, save, and invest.
+    </p>
+
+    <div class="meta-row">
+      <div class="meta-cell">
+        <div class="meta-num">60<span class="meta-unit">s</span></div>
+        <div class="meta-label">Episode length</div>
+      </div>
+      <div class="meta-cell">
+        <div class="meta-num">Daily</div>
+        <div class="meta-label">Publish cadence</div>
+      </div>
+      <div class="meta-cell">
+        <div class="meta-num">4</div>
+        <div class="meta-label">Platforms</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="platforms">
+  <div class="wrap">
+    <h2 class="section-kicker">Published on</h2>
+    <ul class="platform-list">
+      <li class="platform-row">
+        <span class="platform-idx">01</span>
+        <span class="platform-name">TikTok</span>
+        <span class="platform-hairline" aria-hidden="true"></span>
+        <a class="platform-handle" href="https://www.tiktok.com/@braintaxhq" rel="noopener">@braintaxhq</a>
+      </li>
+      <li class="platform-row">
+        <span class="platform-idx">02</span>
+        <span class="platform-name">YouTube Shorts</span>
+        <span class="platform-hairline" aria-hidden="true"></span>
+        <span class="platform-handle muted">@braintaxhq</span>
+      </li>
+      <li class="platform-row">
+        <span class="platform-idx">03</span>
+        <span class="platform-name">Instagram Reels</span>
+        <span class="platform-hairline" aria-hidden="true"></span>
+        <span class="platform-handle muted">@braintaxhq</span>
+      </li>
+      <li class="platform-row">
+        <span class="platform-idx">04</span>
+        <span class="platform-name">Facebook Reels</span>
+        <span class="platform-hairline" aria-hidden="true"></span>
+        <span class="platform-handle muted">@braintaxhq</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="dossier">
+  <div class="wrap dossier-grid">
+    <div class="dossier-col">
+      <h2 class="section-kicker">About this site</h2>
+      <p>
+        A public home page for the BrainTax channel, and documentation of the
+        self-hosted publishing tool used to operate <a href="https://www.tiktok.com/@braintaxhq" rel="noopener">@braintaxhq</a>
+        via the TikTok Content Posting API. The tool runs on the operator's own
+        infrastructure and publishes only to accounts owned by the operator.
+      </p>
+      <p class="quiet">
+        For the API scopes requested and how data is handled, see the
+        <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>.
+      </p>
+    </div>
+    <aside class="legal-cards" aria-label="Legal">
+      <a href="{{ '/terms/' | relative_url }}" class="legal-card">
+        <span class="legal-num">§ 01</span>
+        <span class="legal-title">Terms of Service</span>
+        <span class="legal-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="{{ '/privacy/' | relative_url }}" class="legal-card">
+        <span class="legal-num">§ 02</span>
+        <span class="legal-title">Privacy Policy</span>
+        <span class="legal-arrow" aria-hidden="true">→</span>
+      </a>
+    </aside>
+  </div>
+</section>

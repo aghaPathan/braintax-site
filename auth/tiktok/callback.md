@@ -14,13 +14,13 @@ This page receives the TikTok OAuth authorization code for the BrainTax publishi
 
 <div id="status">Reading authorization code from URL…</div>
 
-<pre id="code-box" style="background:#f4f4f4;padding:1em;border-radius:4px;overflow-x:auto;display:none;"></pre>
+<pre id="code-box" style="display:none;"></pre>
 
 <p id="instructions" style="display:none;">
 Copy the values above and paste them into the BrainTax publishing tool's OAuth setup prompt.
 </p>
 
-<p id="error-box" style="color:#a00;display:none;"></p>
+<p id="error-box" style="display:none;"></p>
 
 <script>
 (function() {

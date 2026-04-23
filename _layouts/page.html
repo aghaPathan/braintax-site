@@ -1,0 +1,19 @@
+---
+layout: default
+body_class: page-body doc-body
+---
+
+<article class="doc">
+  <div class="wrap doc-head">
+    <div class="eyebrow">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Document · {{ page.title }}</span>
+    </div>
+    <h1 class="doc-title">{{ page.title }}</h1>
+  </div>
+  <div class="wrap doc-body-wrap">
+    <div class="doc-content">
+      {{ content }}
+    </div>
+  </div>
+</article>

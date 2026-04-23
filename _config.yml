@@ -1,12 +1,16 @@
 title: BrainTax
-description: Money psychology short-form video channel and self-hosted publishing tool.
-theme: minima
+description: The psychology behind your money decisions. Short-form video, published daily.
 url: https://www.braintax.net
 baseurl: ""
 
-header_pages:
-  - terms.md
-  - privacy.md
+# No theme — custom layouts in _layouts/ and includes in _includes/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
-minima:
-  skin: auto
+plugins: []
+
+sass:
+  style: compressed
